@@ -1,0 +1,6 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  /* giving the chat pannel 65% of the screen i.e 100-35(sidebar) */
+  flex: 0.65;
+}

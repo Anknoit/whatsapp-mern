@@ -1,0 +1,10 @@
+1. Registered app on firebase
+2. allowed it for hosting
+3. npm install firebase
+
+4. BREAK DOWN THE LAYOUT OF THE INTERFACE TO DESIGN THE STRUCTURE OF CODE Always look at the app and look for components or blocks of app separately ---> which you think will need separate reloading and create 
+	their respective javascript files for react (ex. whatsapp has a sidebar and chatpannel so these will be the two files)
+5. will use rfce - reactFunctionExportComponent for creating every component of the app (you can also use arror function)
+6. AutoImport component in main App.js by ctrl+SpaceBar
+7. Using material ui and material ui icons - good asthetic interface....google like
+8. Every JSX component will have its separate css file
