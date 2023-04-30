@@ -16,3 +16,6 @@
     What it does is it specify git to not push all the modules that is installed by mentioning the name of the folder which is to be ignored, it ensures that your github repo is not swamped by all these big node modules
 
     the only packages that are needed are mentioned isnide package.json under dependencies object and only this get taken in the repo, these are appended in package.json when we install it giving the commnad "npm -i <module name>"
+
+14. when you push the changes for different folders cd to that folder and type "git add ." in each of them separately for them to get commited  
+    and pushed
