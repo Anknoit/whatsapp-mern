@@ -2,9 +2,17 @@
 2. allowed it for hosting
 3. npm install firebase
 
-4. BREAK DOWN THE LAYOUT OF THE INTERFACE TO DESIGN THE STRUCTURE OF CODE Always look at the app and look for components or blocks of app separately ---> which you think will need separate reloading and create 
-	their respective javascript files for react (ex. whatsapp has a sidebar and chatpannel so these will be the two files)
+4. BREAK DOWN THE LAYOUT OF THE INTERFACE TO DESIGN THE STRUCTURE OF CODE Always look at the app and look for components or blocks of app separately ---> which you think will need separate reloading and create
+   their respective javascript files for react (ex. whatsapp has a sidebar and chatpannel so these will be the two files)
 5. will use rfce - reactFunctionExportComponent for creating every component of the app (you can also use arror function)
 6. AutoImport component in main App.js by ctrl+SpaceBar
 7. Using material ui and material ui icons - good asthetic interface....google like
 8. Every JSX component will have its separate css file
+9. Whenever you create a folder apart from the one generated for your app using create app.. cd into that new folder and do "git init" - to make it a repository folder which can be pushed into github
+10. do npm init - will create a package.json file for initializing the project and install modules into the backend
+11. added start:'node server.js' after npm init in package.json
+12. npm i express mongoose //i = install
+13. added .gitignore in backend folder
+    What it does is it specify git to not push all the modules that is installed by mentioning the name of the folder which is to be ignored, it ensures that your github repo is not swamped by all these big node modules
+
+    the only packages that are needed are mentioned isnide package.json under dependencies object and only this get taken in the repo, these are appended in package.json when we install it giving the commnad "npm -i <module name>"
